@@ -1,5 +1,7 @@
 # 📚 Book Finder
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://bookfindermine.netlify.app/)
+
 A React-based **Book Finder App** that uses the [Open Library API](https://openlibrary.org/developers/api) to search for books by **title, author, year, or language**.  
 Users can view book details like cover, author, description, and subjects in a clean, responsive UI.
 
@@ -24,6 +26,11 @@ Users can view book details like cover, author, description, and subjects in a c
 - [React Hook Form](https://react-hook-form.com/) (form handling)
 - [Tailwind CSS](https://tailwindcss.com/) (styling)
 - [Open Library API](https://openlibrary.org/developers/api) (data source)
+
+---
+
+## 🌍 Live Demo
+🔗 [Book Finder App](https://bookfindermine.netlify.app/)
 
 ---
 
