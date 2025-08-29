@@ -1,0 +1,45 @@
+.boxshadow{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.Commoncol{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+select:focus {
+  outline: none;
+  border-color: #2563eb; /* Tailwind’s blue-600 */
+  box-shadow: 0 0 4px #93c5fd;
+}
+
+
+.overLay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* 50% opacity */
+  z-index: 1000; /* make sure it's on top of other elements */
+}
+.bigcard{
+  background-color: white;
+  height: 350px;
+}
+@media screen and (min-width: 768px) {
+  .card {
+    background: lightgreen;
+  }
+}
