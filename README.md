@@ -36,10 +36,15 @@ Users can view book details like cover, author, description, and subjects in a c
 
 ## 📦 Installation & Setup
 
-### 1. Clone the repository
+###  Clone the repository
 ```bash
 git clone https://github.com/your-username/book-finder.git
 cd book-finder
+ Install dependencies
+npm install
+
+Run the project locally
+npm run dev
 
 
 ### 2. Install dependencies
