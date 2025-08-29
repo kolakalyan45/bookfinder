@@ -40,3 +40,10 @@ Users can view book details like cover, author, description, and subjects in a c
 ```bash
 git clone https://github.com/your-username/book-finder.git
 cd book-finder
+
+
+### 2. Install dependencies
+npm install
+
+3. Run the project locally
+npm run dev
