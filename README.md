@@ -1,12 +1,35 @@
-# React + Vite
+# 📚 Book Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based **Book Finder App** that uses the [Open Library API](https://openlibrary.org/developers/api) to search for books by **title, author, year, or language**.  
+Users can view book details like cover, author, description, and subjects in a clean, responsive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- 🔍 **Search by title, author, year, and language**
+- 📑 **View book details** including:
+  - Title & Author
+  - Description (truncated to 3–4 lines)
+  - Subjects
+- 📷 Displays **book cover images** (with placeholder if missing)
+- ⏳ Loading indicator while fetching results
+- ➕ **Load more** results functionality
+- 📱 Fully responsive design (mobile-first)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- [React](https://reactjs.org/)
+- [Axios](https://axios-http.com/)
+- [React Hook Form](https://react-hook-form.com/) (form handling)
+- [Tailwind CSS](https://tailwindcss.com/) (styling)
+- [Open Library API](https://openlibrary.org/developers/api) (data source)
+
+---
+
+## 📦 Installation & Setup
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/book-finder.git
+cd book-finder
